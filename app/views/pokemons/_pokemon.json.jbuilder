@@ -1,0 +1,13 @@
+json.id pokemon.id
+json.name pokemon.name
+json.ability pokemon.ability
+json.height pokemon.height
+json.weight pokemon.weight
+json.hp pokemon.hp
+json.attack pokemon.attack
+json.defense pokemon.defense
+json.special_attack pokemon.special_attack
+json.special_defense pokemon.special_defense
+json.speed pokemon.speed
+json.created_at pokemon.created_at
+json.updated_at pokemon.updated_at
