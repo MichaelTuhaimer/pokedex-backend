@@ -1,5 +1,6 @@
 json.id pokemon.id
 json.name pokemon.name
+json.pokedex_number pokemon.pokedex_number
 json.ability pokemon.ability
 json.height pokemon.height
 json.weight pokemon.weight
