@@ -4,6 +4,7 @@ class CreatePokemons < ActiveRecord::Migration[7.1]
       t.string :name
       t.integer :pokedex_number
       t.string :data
+      t.string :sprite
 
       t.timestamps
     end

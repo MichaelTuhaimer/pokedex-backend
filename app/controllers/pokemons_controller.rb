@@ -24,6 +24,7 @@ class PokemonsController < ApplicationController
           name: data["name"],
           pokedex_number: data["id"],
           data: data,
+          sprite: data["sprites"]["front_default"],
         )
         index += 1
       else
