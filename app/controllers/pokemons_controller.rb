@@ -2,7 +2,10 @@ require "http"
 
 class PokemonsController < ApplicationController
   def index
-    @pokemons = Pokemon.all.limit(10)
+    # page_size = params[:page_size] || 10
+    @pokemons = Pokemon.all
+    #   .limit(page_size)
+    #   .offset(page_size * params[:page_number].to_i)
     render :index
   end
 
