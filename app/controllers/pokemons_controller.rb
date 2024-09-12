@@ -9,7 +9,7 @@ class PokemonsController < ApplicationController
     render :index
   end
 
-  def showZ
+  def show
     pokemon = params[:id]
     response = HTTP.get("https://pokeapi.co/api/v2/pokemon/#{pokemon}")
     data = response.parse
