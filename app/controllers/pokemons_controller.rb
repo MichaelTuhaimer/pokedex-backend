@@ -2,14 +2,14 @@ require "http"
 
 class PokemonsController < ApplicationController
   def index
-    # page_size = params[:page_size] || 10
+    page_size = params[:page_size] || 96
     @pokemons = Pokemon.all
-    #   .limit(page_size)
-    #   .offset(page_size * params[:page_number].to_i)
+      .limit(page_size)
+      .offset(page_size * params[:page_number].to_i)
     render :index
   end
 
-  def show
+  def showZ
     pokemon = params[:id]
     response = HTTP.get("https://pokeapi.co/api/v2/pokemon/#{pokemon}")
     data = response.parse
