@@ -12,4 +12,6 @@ Rails.application.routes.draw do
   post "/pokemons" => "pokemons#create"
 
   post "/users" => "users#create"
+
+  post "/sessions" => "sessions#create"
 end
