@@ -10,4 +10,6 @@ Rails.application.routes.draw do
   get "/pokemons" => "pokemons#index"
   get "/pokemons/:id" => "pokemons#show"
   post "/pokemons" => "pokemons#create"
+
+  post "/users" => "users#create"
 end
