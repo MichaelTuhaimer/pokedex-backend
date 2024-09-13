@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   post "/pokemons" => "pokemons#create"
 
   post "/users" => "users#create"
+  get "/users" => "users#show"
 
   post "/sessions" => "sessions#create"
 end

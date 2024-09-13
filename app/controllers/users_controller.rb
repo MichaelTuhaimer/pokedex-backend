@@ -1,4 +1,9 @@
 class UsersController < ApplicationController
+  def show
+    @user = User.find_by(id: current_user.id)
+    render :show
+  end
+
   def create
     user = User.new(
       name: params[:name],
