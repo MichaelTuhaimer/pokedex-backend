@@ -13,6 +13,7 @@ Rails.application.routes.draw do
 
   post "/favorites" => "favorites#create"
   get "/favorites" => "favorites#index"
+  delete "/favorites/:id" => "favorites#destroy"
 
   post "/users" => "users#create"
   get "/users" => "users#show"
