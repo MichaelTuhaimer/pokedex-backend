@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   post "/pokemons" => "pokemons#create"
 
   post "/favorites" => "favorites#create"
+  get "/favorites" => "favorites#index"
 
   post "/users" => "users#create"
   get "/users" => "users#show"
