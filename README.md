@@ -1,4 +1,4 @@
-Pokédex Rails API
+# Pokédex Rails API
 
 A Ruby on Rails API that integrates with the PokeAPI to provide users with Pokémon data and allow them to manage their favorite Pokémon. This project demonstrates proficiency in building RESTful APIs, handling user authentication, and integrating external APIs.
 
