@@ -2,13 +2,14 @@
 
 A Ruby on Rails API that integrates with the PokeAPI to provide users with Pokémon data and allow them to manage their favorite Pokémon. This project demonstrates proficiency in building RESTful APIs, handling user authentication, and integrating external APIs.
 
-Table of Contents
-Features
-Installation
-Usage
-API Endpoints
-Technologies Used
-Project Highlights
+# Table of Contents
+* Features
+* Installation
+* Usage
+* API Endpoints
+* Technologies Used
+* Project Highlights
+
 Features
 Pokémon Data Integration: Fetch and display comprehensive Pokémon data using the PokeAPI.
 User Authentication: Implement secure user registration and login with JWT token-based authentication.
