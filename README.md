@@ -24,29 +24,29 @@ A Ruby on Rails API that integrates with the PokeAPI to provide users with Poké
 ### Setup
 1. Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/pokemon-rails-api.git
+```bash
+git clone https://github.com/MichaelTuhaimer/pokedex-backend
 cd pokemon-rails-api
+```
 
 2. Install dependencies:
 
-bash
-Copy code
+```bash
 bundle install
+```
 
 3. Set up the database:
 
-bash
-Copy code
+```bash
 rails db:create
 rails db:migrate
+```
 
 4. Start the Rails server:
 
-bash
-Copy code
+```bash
 rails s
+```
 
 5. Access the app at http://localhost:3000.
 
